@@ -1,0 +1,7 @@
+{
+  "name": "Adverta",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
