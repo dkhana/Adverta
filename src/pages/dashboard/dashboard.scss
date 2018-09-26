@@ -1,0 +1,59 @@
+page-dashboard {
+
+    .slide-image {
+      max-height: 5%;
+      max-width: 10%;
+      margin: 18px 0;
+      margin-left: 300px;
+      margin-top: 30px;
+    }
+  
+    .search{
+      border-block-end-color: #E8775D;
+    }
+
+    .top-placement {
+ // -60%
+      margin-bottom: -90%;
+
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      } 
+    }
+
+    .middle-placement {
+
+      // -80%
+      margin-bottom: -80%;
+
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 135px;
+        // 135px:
+      }
+    }
+
+    .bottom-placement {
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      }
+
+      .image {
+        height: 70px;
+        width: 70px;
+      }
+
+      .description {
+        letter-spacing: 1px;
+      }
+  
+  }}
+  

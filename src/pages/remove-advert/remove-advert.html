@@ -1,0 +1,77 @@
+<ion-content>
+  <img src="assets/imgs/back.png" class="backicon" (click)="backbutton()" />
+
+  <p class="companytitle">remove advertisement</p>
+
+  <ion-content class="grid">
+    <ion-grid>
+      <!-- FILE NAME -->
+      <ion-row>
+        <ion-col col-4>
+          <p>File Name</p>
+        </ion-col>
+        <ion-col col-6>
+          <p>Advert 1</p>
+        </ion-col>
+      </ion-row>
+
+      <!-- UPLOAD -->
+      <ion-row>
+        <ion-col>
+          <p>Upload</p>
+        </ion-col>
+        <ion-col>
+          <p>Advert 1</p>
+        </ion-col>
+        <ion-col>
+          <img src=""/>
+        </ion-col>
+      </ion-row>
+
+      <!-- DATE -->
+      <ion-row>
+        <ion-col col-4>
+          <p>Date</p>
+        </ion-col>
+        <ion-col col-6>
+          <p>15/08/18</p>
+        </ion-col>
+      </ion-row>
+
+      <!-- TAG/KEYWORD -->
+      <ion-row>
+        <ion-col col-4>
+          <p>Tag/Keyword</p>
+        </ion-col>
+        <ion-col col-6>
+          <p>dst, dstcare, dstbn</p>
+        </ion-col>
+      </ion-row>
+
+      <!-- PLACEMENT -->
+      <ion-row>
+        <ion-col col-4>
+          <p>Placement</p>
+        </ion-col>
+        <ion-col col-6>
+            <ion-select [(ngModel)]="selectedPlacement">
+                <ion-option value="Top1">Top 1</ion-option>
+                <ion-option value="Top2">Top 2</ion-option>
+                <ion-option value="Top3">Top 3</ion-option>
+                <ion-option value="Middle1">Middle 1</ion-option>
+                <ion-option value="Middle2">Middle 2</ion-option>
+                <ion-option value="Middle3">Middle 3</ion-option>
+                <ion-option value="Middle4">Middle 4</ion-option>
+                <ion-option value="Bottom1">Bottom 1</ion-option>
+                <ion-option value="Bottom2">Bottom 2</ion-option>
+                <ion-option value="Bottom3">Bottom 3</ion-option>
+            </ion-select>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+
+  <button ion-button color="primary" class="removebutton" round (click)="doConfirm()">remove</button>
+  
+
+</ion-content>

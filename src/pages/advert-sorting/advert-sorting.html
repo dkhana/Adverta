@@ -1,0 +1,14 @@
+<ion-content>
+
+    <img src="assets/imgs/back.png" class="backicon" (click)="backbutton()" />
+
+
+    <p class="companytitle">advert sorting</p>
+
+    <ion-list no-lines >
+        <button ion-item *ngFor="let item of items" value="{{item}}" (click)="advertinfobutton(item)">
+          {{ item }}
+        </button>
+      </ion-list>
+
+</ion-content>
